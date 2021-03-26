@@ -1,3 +1,3 @@
-module github-go-mod.bak
+module github-go-mod
 
 go 1.16
