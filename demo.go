@@ -1,4 +1,4 @@
-package github_go_mod_bak
+package github_go_mod
 
 type Pointer struct {
 	Key   string
