@@ -1,6 +1,11 @@
 package helper
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/zhaoshupeng/golib"
+	"github.com/zhaoshupeng/golib/ty"
+)
 
 type Help struct {
 	Name string
@@ -8,4 +13,7 @@ type Help struct {
 
 func Echo() {
 	fmt.Println("echo help")
+	golib.LibEcho()
+	fmt.Println(ty.Dir)
+
 }
